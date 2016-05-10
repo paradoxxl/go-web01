@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"github.com/paradoxxl/go-web01/rest01"
+	_ "github.com/paradoxxl/go-web01/rest01"
+	"github.com/paradoxxl/go-web01/rping"
 )
 
 func main() {
 	fmt.Println("Trying to start Server")
-	rest01.Start()
+	rping.Start()
 }
